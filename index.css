@@ -211,7 +211,7 @@ nav{
     bottom: 0;
     background-position: center;
     background-size: cover;
-    background-image: url("/assets/baner-overlay.png");
+    background-image: url("assets/baner-overlay.png");
     z-index: 3;
     opacity: 0;
     transition: opacity 300ms ease;
