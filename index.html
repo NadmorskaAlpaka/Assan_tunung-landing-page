@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tuning your car with us, make a dream come true.">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Assan tuning</title>
+</head>
+<body>
+    <nav>
+        <figure class="logo--wrapper">
+            <a href="/">
+                <img class="logo" src="assets/logo.png" alt="logo"/>
+            </a>
+        </figure>
+        <span 
+            class="open-icon click"
+            onClick="openMenu()"
+        >
+            &equiv;
+        </span>
+        <hr class="separate-line">
+        <div class="nav__container">
+            <ul class="nav__link--list">
+                <li class="nav__link not-implemented">
+                    <a class="nav__link--anchor not-implemented" href="#">
+                        Main
+                    </a>
+                </li>
+                <li class="nav__link not-implemented">
+                    <a class="nav__link--anchor not-implemented" href="#">
+                        About
+                    </a>
+                </li>
+                <li class="nav__link not-implemented">
+                    <a class="nav__link--anchor not-implemented" href="#">
+                        Offer
+                    </a>
+                </li>
+                <li class="nav__link not-implemented">
+                    <a class="nav__link--anchor not-implemented" href="#">
+                        Gallery
+                    </a>
+                </li>
+                <li class="nav__link not-implemented">
+                    <a class="nav__link--anchor not-implemented" href="#">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <input class="nav__search-bar not-implemented" type="text" placeholder="Search"/>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <span 
+            class="close--icon click" 
+            onClick="closeMenu()"
+        >
+                &times;
+        </span>
+        <ul class="mobile-menu--list">
+            <li class="mobile-menu__link not-implemented">
+                <a class="mobile-menu__link--anchor not-implemented" href="#" onClick="closeMenu()">
+                    Main
+                </a>
+            </li>
+            <li class="mobile-menu__link not-implemented">
+                <a class="mobile-menu__link--anchor not-implemented" href="#" onClick="closeMenu()">
+                    About
+                </a>
+            </li>
+            <li class="mobile-menu__link not-implemented">
+                <a class="mobile-menu__link--anchor not-implemented" href="#" onClick="closeMenu()">
+                    Offer
+                </a>
+            </li>
+            <li class="mobile-menu__link not-implemented">
+                <a class="mobile-menu__link--anchor not-implemented" href="#" onClick="closeMenu()">
+                    Gallery
+                </a>
+            </li>
+            <li class="mobile-menu__link not-implemented">
+                <a class="mobile-menu__link--anchor not-implemented" href="#" onClick="closeMenu()">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </div>
+    <section id="landing">
+        <div class="landing--wrapper">
+            <img class="landing__img" src="assets/baner.jpg" alt="baner" />
+            <h1 class="title">Make your dream car</h1>
+        </div>
+    </section>
+    <section id="highlights">
+        <div class="container">
+            <div class="row">
+                <div class="highlights--wrapper">
+                    <div class="highlight">
+                        <figure class="highlight__img--wrapper">
+                            <img class="highlight__img" src="assets/accesories.jpg" alt=""/>
+                        </figure>
+                        <div class="highlight__body">
+                            <h2 class="section__title">Accesories</h2>
+                            <p class="section__para">
+                                Interior customization, leather upholstery, replacement of equipment.
+                            </p>
+                            <button class="btn click not-implemented">Read More</button>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <figure class="highlight__img--wrapper">
+                            <img class="highlight__img" src="assets/tuning.jpg" alt=""/>
+                        </figure>
+                        <div class="highlight__body">
+                            <h2 class="section__title">Car tuning</h2>
+                            <p class="section__para">
+                                Modification of the body, tinting windows, replacing rims, wrapping and painting.
+                            </p>
+                            <button class="btn click not-implemented">Read More</button>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <figure class="highlight__img--wrapper">
+                            <img class="highlight__img" src="assets/clean.jpg" alt=""/>
+                        </figure>
+                        <div class="highlight__body">
+                            <h2 class="section__title">Cleaning</h2>
+                            <p class="section__para">
+                                Full washing of the car body, polishing, polishing, washing upholstery and carpets.
+                            </p>
+                            <button class="btn click not-implemented">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main id="offer">
+        <div class="container">
+            <div class="row">
+                <div class="offer--wrapper">
+                    <div class="offer__container">
+                        <h2 class="section__title">Offer</h2>
+                        <ul class="offer__list">
+                            <li class="offer__list--element">Body modification.</li>
+                            <li class="offer__list--element">Exhaust modification.</li>
+                            <li class="offer__list--element">Body wrapping, painting.</li>
+                            <li class="offer__list--element">Car lowering.</li>
+                            <li class="offer__list--element">Tinting and windows replacement.</li>
+                            <li class="offer__list--element">Spoiler montage.</li>
+                            <li class="offer__list--element">Boosting engine power.</li>
+                            <li class="offer__list--element">Car interior renovation.</li>
+                        </ul>
+                        <button class="btn click not-implemented">Read More</button>
+                    </div>
+                    <div class="team__container">
+                        <h2 class="section__title">Our team</h2>
+                        <figure class="team__img--wrapper">
+                            <img class="team__img" src="assets/mechanic.jpg" alt="mechanic">
+                        </figure>   
+                        <p class="section__para">
+                            Our team consists of 24 experienced mechanics and automotive fanatics. They take their passion for cars to work. Best quality guaranteed.
+                        </p>
+                        <button class="btn click not-implemented">Read More</button>
+                    </div>
+                    <div class="news__container">
+                        <h2 class="section__title">News</h2>
+                        <span class="section__date">22.04.2022</span>
+                        <p class="news__para">
+                            Our team has completed new painting training.
+                        </p>
+                        <span class="section__date">11.02.2022</span>
+                        <p class="news__para">             
+                            Extension of the workshop, now 4 stations at a time.
+                        </p>
+                        <span class="section__date">07.01.2022</span>
+                        <p class="news__para news__para--last">
+                            The wrapping specialist has joined the team.
+                        </p>
+                        <button class="btn click not-implemented">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer--wrapper">
+                    <div class="footer-box">
+                        <span class="footer__title">Follow us</span>
+                        <ul class="footer__list">
+                            <li class="footer__link not-implemented">
+                                <a class="footer__link--anchor not-implemented" href="#">
+                                    Twitter
+                                </a>
+                            </li>
+                            <li class="footer__link not-implemented">
+                                <a class="footer__link--anchor not-implemented" href="#">
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer__link not-implemented">
+                                <a class="footer__link--anchor not-implemented" href="#">
+                                    YouTube
+                                </a>
+                            </li>
+                            <li class="footer__link not-implemented">
+                                <a class="footer__link--anchor not-implemented" href="#">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__link not-implemented">
+                                <a class="footer__link--anchor not-implemented" href="#">
+                                    TikTok
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-box center">
+                        <span class="footer__title">Newsletter</span>
+                        <p class="footer__para">
+                            Join our newsletter,
+                        </p>
+                        <p class="footer__para">
+                            write your email below.
+                        </p>
+                        <input class="footer__input" type="text" placeholder="newsletter@mail.com"/>
+                        <button class="footer--btn click not-implemented">Join</button>
+                    </div>
+                    <div class="footer-box footer-box--last">
+                        <span class="footer__title">About us</span>
+                        <p class="footer__para--long">
+                            The company has existed for over 40 years, we have extensive experience and a well-coordinated team, 10 workshops in the country, we are top on the market.
+                        </p>
+                    </div>
+                </div>
+                <div class="copyright--wrapper">
+                    <span class="copyright">
+                        Assan tuning &copy; 2022
+                    </span>
+                     <a class="help not-implemented" href="#">
+                        Support
+                    </a>
+                    <a class="help not-implemented" href="#">
+                        FAQs
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
